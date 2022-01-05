@@ -1,38 +1,137 @@
-.App {
-  text-align: center;
+/* .logo{
+  height: 10px;
+} */
+
+
+a.navbar-brand img {
+  height: 120px;
+  width: 153px;
+  margin-top: -6px;
+}
+.bg-light {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-light-rgb),var(--bs-bg-opacity))!important;
+  height: 81px;
+}
+.w-100 {
+  width: 100%!important;
+  height: 500px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+/* footer */
+
+hr{
+  width: 60px;
+}
+.back{
+  background-color: #6351ce
+}
+.upload{
+  margin-left: 338px;
+ 
+}
+.masala{
+  font-size: 1.5rem;
+  font-family: cursive;
+  font-weight: 600;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.masala-2{
+  font-size: 3rem;
+  font-family: cursive;
+  font-weight: 600;
+}
+.masala-3{
+  font-size: 2rem;
+  font-family: cursive;
+  font-weight: 600;
+}
+
+.video11{
+  box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%) ;
+}
+span.title {
+  font-weight: 900;
+}
+span.Description {
+  font-weight: 900;
+}
+
+/* upload logo */
+
+.icon {
+  font-size: 100px;
+  color: rgb(27, 157, 233);
   }
+  .hi {
+      margin-top: 3rem!important;
+      width: 507px;
+  }
+.video_loop{
+  background-color: slategrey;
+
+
+}
+.video_loop video {
+    margin-left:30px;
+   
+  
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.contact{
+  /* width: 800px; */
+  background: #fff;
+  border: 1px solid #dddfe2;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%) ;
+  border-radius: 8px;
+  padding: 1rem;
   align-items: center;
+  text-align: center;
+  /* margin: auto;
+  margin-top: 50px; */
+}
+.size_font  i {
+  font-size: 30px;
+  margin: 10px;
+  color:wheat;
+}
+
+.scroll-spacer {
+  align-items: center;
+  background-color: #1a1a1a;
+  border-radius: 30px;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: 75vh;
+  margin: 1em auto;
+  width: 90%;
 }
-
-.App-link {
-  color: #61dafb;
+video {
+  display: block;
+  height: auto;
+  margin: auto;
+  position: relative;
+  width: 100%;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.video-wrap {
+  margin: 0 auto;
+  position: relative;
+  width: 90%;
+}
+.video-wrap:after {
+  border-bottom: 1px solid red;
+  content: '';
+  display: block;
+  position: absolute;
+  width: 100%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+.masala {
+  font-size: 1.5rem;
+  font-family: cursive;
+  font-weight: 600;
+  color: black;
 }
